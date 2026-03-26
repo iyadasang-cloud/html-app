@@ -11,4 +11,4 @@ jobs:
     job-1:
         runs-on: ubuntu-lastest
         steps:
-            - run: echo "Hello Github Action"
+            - run: echo "Hello Github Action eiei"
