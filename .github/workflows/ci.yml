@@ -29,5 +29,5 @@ jobs:
         environment: production
         steps:
             - run: echo "Hello ${{ env.COMPANY_NAME }}"
-            - run: echo ${{ env.SERVER_IP }}"
-            - run: echo ${{ vars.SERVER_IP_PRODUCTION }}"
+            - run: echo "${{ env.SERVER_IP }}"
+            - run: echo "${{ vars.SERVER_IP_PRODUCTION }}"
